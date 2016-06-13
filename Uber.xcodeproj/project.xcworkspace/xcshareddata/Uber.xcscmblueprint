@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "D586C6D4F839EEA5E27287AC086E60AED9A8FCB9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0AE6412E4A248788AC89F1BE7ACF55E698B0D53A" : 0,
+    "D586C6D4F839EEA5E27287AC086E60AED9A8FCB9" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "DE697ADD-4521-441B-BF6C-9BED43177F75",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0AE6412E4A248788AC89F1BE7ACF55E698B0D53A" : "",
+    "D586C6D4F839EEA5E27287AC086E60AED9A8FCB9" : "Uber\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Uber",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Uber.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ZeroneCoding\/Vchat.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0AE6412E4A248788AC89F1BE7ACF55E698B0D53A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ZeroneCoding\/Uber.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D586C6D4F839EEA5E27287AC086E60AED9A8FCB9"
+    }
+  ]
+}
