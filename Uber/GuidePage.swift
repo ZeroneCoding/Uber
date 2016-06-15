@@ -12,10 +12,10 @@ import AVFoundation
 class GuidePage: FxBasePage {
 
     @IBOutlet weak var backImageView: UIImageView!
-    @IBOutlet weak var backView: UIView!
     
     var player:AVPlayer!
     var playerItem:AVPlayerItem!
+    var location:FxLocation!
     
     
     override func viewDidLoad() {
@@ -82,6 +82,20 @@ class GuidePage: FxBasePage {
         let item = sender.object as! AVPlayerItem
         item.seekToTime(kCMTimeZero)
         self.player.play()
+    }
+    
+    @IBAction func loginBtnClick(sender: UIButton) {
+        location = FxLocation()
+        
+        location.startLocation()
+    }
+    @IBAction func registerBtnClick(sender: AnyObject) {
+//        showIndicator("Test&Verify", autoHide: true, afterDelay: true)
+        let page = CreateAccountPage()
+        let navPage = UINavigationController(rootViewController: page)
+        
+        self.presentViewController(navPage, animated: true, completion: nil)
+        
     }
 
 }
