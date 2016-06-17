@@ -24,7 +24,7 @@ class UserInfoPage: FxBasePage, UIImagePickerControllerDelegate, UINavigationCon
         backView.layer.cornerRadius = 5
         
         setNavigationItem("Next", selector: #selector(FxBasePage.nextPageBtnClick), isRight: true)
-        setNavigationItem("Back", selector: #selector(FxBasePage.lastPageBtnClick), isRight: false)
+        setNavigationItem("Back.png", selector: #selector(FxBasePage.lastPageBtnClick), isRight: false)
     }
 
     override func didReceiveMemoryWarning() {

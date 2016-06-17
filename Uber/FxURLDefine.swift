@@ -18,4 +18,5 @@ func serverAddress() -> String {
     return address
     
 }
-        
+
+let YLTnURL = "http://http://202.101.25.178:8080/sim/gettn"

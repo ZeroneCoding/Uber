@@ -5,3 +5,4 @@
 #import "FxActivity.h"
 #import "FxActivityIndicator.h"
 #import "FxString.h"
+#import "FxPayPlugin.h"

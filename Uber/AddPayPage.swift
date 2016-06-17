@@ -19,14 +19,26 @@ class AddPayPage: FxBasePage, UITableViewDelegate, UITableViewDataSource {
         
         self.title = "Add Pay"
         
-        setNavigationItem("Back", selector: Selector("lastPageBtnClick"), isRight: false)
+        setNavigationItem("Back.png", selector: #selector(FxBasePage.lastPageBtnClick), isRight: false)
+        setNavigationItem("Verify", selector: #selector(doVerifyPhone), isRight: true)
         
         initDatas()
         
-        self.tableView.registerClass(UITableViewCell.self, forHeaderFooterViewReuseIdentifier: "CellID")
-        self.view.addSubview(self.tableView)
+        tableView.delegate = self
+        tableView.dataSource = self
+        
+        self.tableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: "CellID")
         self.tableView.reloadData()
 
+    }
+    
+    func doVerifyPhone() {
+        
+        let page = VerifyPhonePage()
+        let navPage = UINavigationController(rootViewController:page)
+        
+        self.presentViewController(navPage, animated: true, completion: nil)
+        
     }
     
     func initDatas() {
@@ -49,47 +61,18 @@ class AddPayPage: FxBasePage, UITableViewDelegate, UITableViewDataSource {
         }
         
     }
-    
-    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-        return headers!.count
-    }
-    
+        
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        let key = headers![section]
-        let datas = dictDatas![key] as! [CountryInfo]
-        
         return datas.count
-    }
-    
-    func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        return headers![section]
-    }
-    
-    func sectionIndexTitlesForTableView(tableView: UITableView) -> [String]? {
-        
-        var indexs:[String] = []
-        var char:[CChar] = [0,0]
-        
-        for i in 65...65+26-1 {
-            char[0] = CChar(i)
-            indexs.append(String.fromCString(char)!)
-        }
-        
-        indexs.append("#")
-        
-        return indexs
-        
     }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         
         self.tableView.deselectRowAtIndexPath(indexPath, animated: true)
         
-        let cell:UITableViewCell? = self.tableView.cellForRowAtIndexPath(indexPath)
+        let page = YinLianPage()
+        self.navigationController?.pushViewController(page, animated: true)
         
-        cell?.accessoryView = UIImageView(image: UIImage(named: "selected.png"))
-        
-        self.lastPageBtnClick()
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
@@ -97,12 +80,11 @@ class AddPayPage: FxBasePage, UITableViewDelegate, UITableViewDataSource {
         let identify:String = "CellID"
         let cell = tableView.dequeueReusableCellWithIdentifier(identify, forIndexPath: indexPath) as UITableViewCell
         
-        let key = headers![indexPath.section]
-        let datas = dictDatas![key] as! [CountryInfo]
-        let country = datas[indexPath.row]
+        let data = datas[indexPath.row]
         
         cell.accessoryType = .None
-        cell.textLabel?.text = country.name!
+        cell.textLabel?.text = data.name
+        cell.imageView?.image = UIImage(named: data.icon)
         
         return cell
     }

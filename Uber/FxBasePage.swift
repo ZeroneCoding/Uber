@@ -46,6 +46,7 @@ class FxBasePage: FxBaseController {
     }
     
     func lastPageBtnClick() {
+        
         self.dismissViewControllerAnimated(true, completion: nil)
     }
 }

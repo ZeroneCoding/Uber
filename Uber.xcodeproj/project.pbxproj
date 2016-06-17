@@ -7,7 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE08A3551D121EAF001622E4 /* AliPay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE08A3511D121EAF001622E4 /* AliPay@2x.png */; };
+		BE08A3561D121EAF001622E4 /* BaiDuWallet@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE08A3521D121EAF001622E4 /* BaiDuWallet@2x.png */; };
+		BE08A3571D121EAF001622E4 /* CreditCard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE08A3531D121EAF001622E4 /* CreditCard@2x.png */; };
+		BE08A3581D121EAF001622E4 /* YinLian@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE08A3541D121EAF001622E4 /* YinLian@2x.png */; };
+		BE08A35A1D1222AE001622E4 /* YinLianPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE08A3591D1222AE001622E4 /* YinLianPage.xib */; };
 		BE4368331D0F8291002A1D70 /* FxLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4368321D0F8291002A1D70 /* FxLocation.swift */; };
+		BE4CACE01D14343D00E875B1 /* VerifyPhonePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4CACDF1D14343D00E875B1 /* VerifyPhonePage.swift */; };
+		BE4CACE21D14345500E875B1 /* VerifyPhonePage.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE4CACE11D14345500E875B1 /* VerifyPhonePage.xib */; };
+		BE4CACE61D1439A800E875B1 /* Back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE4CACE41D1439A800E875B1 /* Back@2x.png */; };
+		BE4CACE71D1439A800E875B1 /* Close.png in Resources */ = {isa = PBXBuildFile; fileRef = BE4CACE51D1439A800E875B1 /* Close.png */; };
 		BE54F9C41D0EB4B50084E360 /* logo-000.png in Resources */ = {isa = PBXBuildFile; fileRef = BE54F8F81D0EB4B50084E360 /* logo-000.png */; };
 		BE54F9C51D0EB4B50084E360 /* logo-000@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE54F8F91D0EB4B50084E360 /* logo-000@2x.png */; };
 		BE54F9C61D0EB4B50084E360 /* logo-000@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE54F8FA1D0EB4B50084E360 /* logo-000@3x.png */; };
@@ -258,6 +267,9 @@
 		BEC0A5F71D0E3C9A00F2B307 /* FxDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC0A5F61D0E3C9A00F2B307 /* FxDefine.swift */; };
 		BEC0A5F91D0E410E00F2B307 /* FxGlobal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC0A5F81D0E410E00F2B307 /* FxGlobal.swift */; };
 		BEC0A5FB1D0E412800F2B307 /* FxURLDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC0A5FA1D0E412800F2B307 /* FxURLDefine.swift */; };
+		BEF3C7071D12E33A00FAF069 /* libUPPayPlugin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF3C7041D12E33A00FAF069 /* libUPPayPlugin.a */; };
+		BEF3C70A1D12F75F00FAF069 /* FxPayPlugin.mm in Sources */ = {isa = PBXBuildFile; fileRef = BEF3C7091D12F75F00FAF069 /* FxPayPlugin.mm */; };
+		BEF4ADA01D1175AE0004247A /* YinLianPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF4AD9F1D1175AE0004247A /* YinLianPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -278,7 +290,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BE08A3511D121EAF001622E4 /* AliPay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AliPay@2x.png"; sourceTree = "<group>"; };
+		BE08A3521D121EAF001622E4 /* BaiDuWallet@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BaiDuWallet@2x.png"; sourceTree = "<group>"; };
+		BE08A3531D121EAF001622E4 /* CreditCard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CreditCard@2x.png"; sourceTree = "<group>"; };
+		BE08A3541D121EAF001622E4 /* YinLian@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "YinLian@2x.png"; sourceTree = "<group>"; };
+		BE08A3591D1222AE001622E4 /* YinLianPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YinLianPage.xib; sourceTree = "<group>"; };
 		BE4368321D0F8291002A1D70 /* FxLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxLocation.swift; sourceTree = "<group>"; };
+		BE4CACDF1D14343D00E875B1 /* VerifyPhonePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerifyPhonePage.swift; sourceTree = "<group>"; };
+		BE4CACE11D14345500E875B1 /* VerifyPhonePage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VerifyPhonePage.xib; sourceTree = "<group>"; };
+		BE4CACE41D1439A800E875B1 /* Back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Back@2x.png"; sourceTree = "<group>"; };
+		BE4CACE51D1439A800E875B1 /* Close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Close.png; sourceTree = "<group>"; };
 		BE54F8F81D0EB4B50084E360 /* logo-000.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-000.png"; sourceTree = "<group>"; };
 		BE54F8F91D0EB4B50084E360 /* logo-000@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-000@2x.png"; sourceTree = "<group>"; };
 		BE54F8FA1D0EB4B50084E360 /* logo-000@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-000@3x.png"; sourceTree = "<group>"; };
@@ -539,6 +560,12 @@
 		BEC0A5F61D0E3C9A00F2B307 /* FxDefine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxDefine.swift; sourceTree = "<group>"; };
 		BEC0A5F81D0E410E00F2B307 /* FxGlobal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxGlobal.swift; sourceTree = "<group>"; };
 		BEC0A5FA1D0E412800F2B307 /* FxURLDefine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxURLDefine.swift; sourceTree = "<group>"; };
+		BEF3C7041D12E33A00FAF069 /* libUPPayPlugin.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUPPayPlugin.a; sourceTree = "<group>"; };
+		BEF3C7051D12E33A00FAF069 /* UPPayPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPPayPlugin.h; sourceTree = "<group>"; };
+		BEF3C7061D12E33A00FAF069 /* UPPayPluginDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPPayPluginDelegate.h; sourceTree = "<group>"; };
+		BEF3C7081D12EF8A00FAF069 /* FxPayPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FxPayPlugin.h; sourceTree = "<group>"; };
+		BEF3C7091D12F75F00FAF069 /* FxPayPlugin.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FxPayPlugin.mm; sourceTree = "<group>"; };
+		BEF4AD9F1D1175AE0004247A /* YinLianPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YinLianPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -546,6 +573,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEF3C7071D12E33A00FAF069 /* libUPPayPlugin.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -566,6 +594,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BE08A3501D121EAF001622E4 /* PayIcon */ = {
+			isa = PBXGroup;
+			children = (
+				BE08A3511D121EAF001622E4 /* AliPay@2x.png */,
+				BE08A3521D121EAF001622E4 /* BaiDuWallet@2x.png */,
+				BE08A3531D121EAF001622E4 /* CreditCard@2x.png */,
+				BE08A3541D121EAF001622E4 /* YinLian@2x.png */,
+			);
+			name = PayIcon;
+			path = Resources/Images/PayIcon;
+			sourceTree = "<group>";
+		};
+		BE4CACE31D1439A800E875B1 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				BE4CACE41D1439A800E875B1 /* Back@2x.png */,
+				BE4CACE51D1439A800E875B1 /* Close.png */,
+			);
+			name = Buttons;
+			path = Resources/Images/Buttons;
+			sourceTree = "<group>";
+		};
 		BE54F8F71D0EB4B50084E360 /* Logo */ = {
 			isa = PBXGroup;
 			children = (
@@ -874,6 +924,8 @@
 		BEC0A5C81D0E31E700F2B307 /* Global */ = {
 			isa = PBXGroup;
 			children = (
+				BEF3C7081D12EF8A00FAF069 /* FxPayPlugin.h */,
+				BEF3C7091D12F75F00FAF069 /* FxPayPlugin.mm */,
 				BEC0A5F81D0E410E00F2B307 /* FxGlobal.swift */,
 				BE4368321D0F8291002A1D70 /* FxLocation.swift */,
 			);
@@ -921,6 +973,8 @@
 				BE7F1A361D111E6700A872A5 /* SelectCountryPage.swift */,
 				BE7EBC761D10457400F61C43 /* UserInfoPage.swift */,
 				BE7EBC781D10459F00F61C43 /* AddPayPage.swift */,
+				BEF4AD9F1D1175AE0004247A /* YinLianPage.swift */,
+				BE4CACDF1D14343D00E875B1 /* VerifyPhonePage.swift */,
 			);
 			name = Pages;
 			sourceTree = "<group>";
@@ -948,6 +1002,7 @@
 		BEC0A5CF1D0E326800F2B307 /* ThirdSDK */ = {
 			isa = PBXGroup;
 			children = (
+				BEF3C7031D12E33A00FAF069 /* YinLianSDK */,
 			);
 			name = ThirdSDK;
 			sourceTree = "<group>";
@@ -984,6 +1039,8 @@
 		BEC0A5D31D0E32D400F2B307 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				BE4CACE31D1439A800E875B1 /* Buttons */,
+				BE08A3501D121EAF001622E4 /* PayIcon */,
 				BE7F1A431D11466100A872A5 /* Background */,
 				BE87C0E11D0FC20700F854AF /* Loading */,
 				BE54F8F71D0EB4B50084E360 /* Logo */,
@@ -1002,6 +1059,8 @@
 				BE7F1A381D11215000A872A5 /* SelectCountryPage.xib */,
 				BE7F1A411D11406900A872A5 /* UserInfoPage.xib */,
 				BE7F1A561D114FE400A872A5 /* AddPayPage.xib */,
+				BE08A3591D1222AE001622E4 /* YinLianPage.xib */,
+				BE4CACE11D14345500E875B1 /* VerifyPhonePage.xib */,
 			);
 			name = Xib;
 			sourceTree = "<group>";
@@ -1012,6 +1071,17 @@
 			);
 			name = Frameworks;
 			path = Uber;
+			sourceTree = "<group>";
+		};
+		BEF3C7031D12E33A00FAF069 /* YinLianSDK */ = {
+			isa = PBXGroup;
+			children = (
+				BEF3C7041D12E33A00FAF069 /* libUPPayPlugin.a */,
+				BEF3C7051D12E33A00FAF069 /* UPPayPlugin.h */,
+				BEF3C7061D12E33A00FAF069 /* UPPayPluginDelegate.h */,
+			);
+			name = YinLianSDK;
+			path = ThirdSDK/YinLianSDK;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1133,6 +1203,7 @@
 				BE54FA391D0EB4B50084E360 /* logo-039.png in Resources */,
 				BE54FA091D0EB4B50084E360 /* logo-023.png in Resources */,
 				BE54FA241D0EB4B50084E360 /* logo-032.png in Resources */,
+				BE4CACE21D14345500E875B1 /* VerifyPhonePage.xib in Resources */,
 				BE54FA5F1D0EB4B50084E360 /* logo-051@3x.png in Resources */,
 				BE54F9C71D0EB4B50084E360 /* logo-001.png in Resources */,
 				BE54FA421D0EB4B50084E360 /* logo-042.png in Resources */,
@@ -1181,6 +1252,7 @@
 				BE54F9EB1D0EB4B50084E360 /* logo-013.png in Resources */,
 				BE54FA1F1D0EB4B50084E360 /* logo-030@2x.png in Resources */,
 				BE54FA711D0EB4B50084E360 /* logo-057@3x.png in Resources */,
+				BE4CACE61D1439A800E875B1 /* Back@2x.png in Resources */,
 				BE54FA911D0EB50B0084E360 /* GuidePage.xib in Resources */,
 				BE54F9E71D0EB4B50084E360 /* logo-011@3x.png in Resources */,
 				BE54FA641D0EB4B50084E360 /* logo-053@2x.png in Resources */,
@@ -1203,6 +1275,7 @@
 				BE7F1A571D114FE400A872A5 /* AddPayPage.xib in Resources */,
 				BE54F9DD1D0EB4B50084E360 /* logo-008@2x.png in Resources */,
 				BE54FA1E1D0EB4B50084E360 /* logo-030.png in Resources */,
+				BE08A3551D121EAF001622E4 /* AliPay@2x.png in Resources */,
 				BEC0A5A51D0E2D1E00F2B307 /* LaunchScreen.storyboard in Resources */,
 				BE54FA041D0EB4B50084E360 /* logo-021@2x.png in Resources */,
 				BE54FA8D1D0EB4B50084E360 /* logo-067.png in Resources */,
@@ -1247,6 +1320,7 @@
 				BE54F9EF1D0EB4B50084E360 /* logo-014@2x.png in Resources */,
 				BE54FA471D0EB4B50084E360 /* logo-043@3x.png in Resources */,
 				BE7F1A391D11215000A872A5 /* SelectCountryPage.xib in Resources */,
+				BE08A3561D121EAF001622E4 /* BaiDuWallet@2x.png in Resources */,
 				BE7F1A401D113A2A00A872A5 /* selected.png in Resources */,
 				BE54FA871D0EB4B50084E360 /* logo-065.png in Resources */,
 				BE54FA0A1D0EB4B50084E360 /* logo-023@2x.png in Resources */,
@@ -1260,6 +1334,7 @@
 				BE54F9FD1D0EB4B50084E360 /* logo-019.png in Resources */,
 				BE54FA0E1D0EB4B50084E360 /* logo-024@3x.png in Resources */,
 				BE54FA5A1D0EB4B50084E360 /* logo-050.png in Resources */,
+				BE08A35A1D1222AE001622E4 /* YinLianPage.xib in Resources */,
 				BE7F1A4D1D11466100A872A5 /* avatar@2x.png in Resources */,
 				BE54FA751D0EB4B50084E360 /* logo-059.png in Resources */,
 				BE54FA4F1D0EB4B50084E360 /* logo-046@2x.png in Resources */,
@@ -1273,6 +1348,7 @@
 				BE54F9C41D0EB4B50084E360 /* logo-000.png in Resources */,
 				BE54FA001D0EB4B50084E360 /* logo-020.png in Resources */,
 				BE54F9CC1D0EB4B50084E360 /* logo-002@3x.png in Resources */,
+				BE08A3571D121EAF001622E4 /* CreditCard@2x.png in Resources */,
 				BE54FA6F1D0EB4B50084E360 /* logo-057.png in Resources */,
 				BE54F9F31D0EB4B50084E360 /* logo-015@3x.png in Resources */,
 				BE54FA401D0EB4B50084E360 /* logo-041@2x.png in Resources */,
@@ -1297,6 +1373,7 @@
 				BE54F9DC1D0EB4B50084E360 /* logo-008.png in Resources */,
 				BEC0A5A21D0E2D1E00F2B307 /* Assets.xcassets in Resources */,
 				BE54F9CD1D0EB4B50084E360 /* logo-003.png in Resources */,
+				BE08A3581D121EAF001622E4 /* YinLian@2x.png in Resources */,
 				BE54FA101D0EB4B50084E360 /* logo-025@2x.png in Resources */,
 				BE54F9F71D0EB4B50084E360 /* logo-017.png in Resources */,
 				BE54F9EC1D0EB4B50084E360 /* logo-013@2x.png in Resources */,
@@ -1340,6 +1417,7 @@
 				BE54FA181D0EB4B50084E360 /* logo-028.png in Resources */,
 				BE54FA5C1D0EB4B50084E360 /* logo-050@3x.png in Resources */,
 				BE54FA831D0EB4B50084E360 /* logo-063@3x.png in Resources */,
+				BE4CACE71D1439A800E875B1 /* Close.png in Resources */,
 				BE54FA671D0EB4B50084E360 /* logo-054@2x.png in Resources */,
 				BE54FA461D0EB4B50084E360 /* logo-043@2x.png in Resources */,
 				BE54FA531D0EB4B50084E360 /* logo-047@3x.png in Resources */,
@@ -1369,7 +1447,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE4CACE01D14343D00E875B1 /* VerifyPhonePage.swift in Sources */,
 				BEC0A5D91D0E340D00F2B307 /* UserInfo.swift in Sources */,
+				BEF4ADA01D1175AE0004247A /* YinLianPage.swift in Sources */,
 				BEC0A5E91D0E35C900F2B307 /* GuidePage.swift in Sources */,
 				BE7F1A3E1D112AB400A872A5 /* FxString.m in Sources */,
 				BEC0A5E11D0E34E900F2B307 /* FxGetCars.swift in Sources */,
@@ -1387,6 +1467,7 @@
 				BEC0A5E71D0E35A400F2B307 /* LoginPage.swift in Sources */,
 				BE7EBC791D10459F00F61C43 /* AddPayPage.swift in Sources */,
 				BEC0A5DF1D0E34AB00F2B307 /* FxRegister.swift in Sources */,
+				BEF3C70A1D12F75F00FAF069 /* FxPayPlugin.mm in Sources */,
 				BE7EBC771D10457400F61C43 /* UserInfoPage.swift in Sources */,
 				BE7EBC751D10451E00F61C43 /* CreateAccountPage.swift in Sources */,
 				BEC0A5FB1D0E412800F2B307 /* FxURLDefine.swift in Sources */,
@@ -1539,6 +1620,10 @@
 				INFOPLIST_FILE = Uber/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Uber/ThirdSDK/YinLianSDK",
+				);
 				OTHER_SWIFT_FLAGS = "-D DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = com.andios.Uber;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1555,6 +1640,10 @@
 				INFOPLIST_FILE = Uber/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Uber/ThirdSDK/YinLianSDK",
+				);
 				OTHER_SWIFT_FLAGS = "-D DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = com.andios.Uber;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1654,6 +1743,10 @@
 				INFOPLIST_FILE = Uber/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Uber/ThirdSDK/YinLianSDK",
+				);
 				OTHER_SWIFT_FLAGS = "-D AppStore";
 				PRODUCT_BUNDLE_IDENTIFIER = com.andios.Uber;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1730,6 +1823,10 @@
 				INFOPLIST_FILE = Uber/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Uber/ThirdSDK/YinLianSDK",
+				);
 				OTHER_SWIFT_FLAGS = "-D DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = com.andios.Uber;
 				PRODUCT_NAME = "$(TARGET_NAME)";
