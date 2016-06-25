@@ -12,6 +12,11 @@
 		BE08A3571D121EAF001622E4 /* CreditCard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE08A3531D121EAF001622E4 /* CreditCard@2x.png */; };
 		BE08A3581D121EAF001622E4 /* YinLian@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE08A3541D121EAF001622E4 /* YinLian@2x.png */; };
 		BE08A35A1D1222AE001622E4 /* YinLianPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE08A3591D1222AE001622E4 /* YinLianPage.xib */; };
+		BE1A22B41D15858000A334BC /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1A22B31D15858000A334BC /* HomePage.swift */; };
+		BE1A22B61D15859000A334BC /* HomePage.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE1A22B51D15859000A334BC /* HomePage.xib */; };
+		BE1A22B91D159CBE00A334BC /* UserCenterPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1A22B71D159CBE00A334BC /* UserCenterPage.swift */; };
+		BE1A22BA1D159CBE00A334BC /* UserCenterPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE1A22B81D159CBE00A334BC /* UserCenterPage.xib */; };
+		BE1A22BC1D159F3100A334BC /* UserBack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE1A22BB1D159F3100A334BC /* UserBack@2x.png */; };
 		BE4368331D0F8291002A1D70 /* FxLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4368321D0F8291002A1D70 /* FxLocation.swift */; };
 		BE4CACE01D14343D00E875B1 /* VerifyPhonePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4CACDF1D14343D00E875B1 /* VerifyPhonePage.swift */; };
 		BE4CACE21D14345500E875B1 /* VerifyPhonePage.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE4CACE11D14345500E875B1 /* VerifyPhonePage.xib */; };
@@ -247,6 +252,11 @@
 		BE87C0DD1D0FB99D00F854AF /* FxActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = BE87C0DC1D0FB99D00F854AF /* FxActivity.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		BE87C0E01D0FBA7900F854AF /* FxActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = BE87C0DF1D0FBA7900F854AF /* FxActivityIndicator.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		BE87C0E31D0FC20700F854AF /* Loading@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE87C0E21D0FC20700F854AF /* Loading@2x.png */; };
+		BEA084531D164F2F005EE67C /* SettingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA084511D164F2F005EE67C /* SettingPage.swift */; };
+		BEA084541D164F2F005EE67C /* SettingPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEA084521D164F2F005EE67C /* SettingPage.xib */; };
+		BEA084581D16582D005EE67C /* AccountBack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BEA084551D16582D005EE67C /* AccountBack@2x.png */; };
+		BEA084591D16582D005EE67C /* HeaderBack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BEA084561D16582D005EE67C /* HeaderBack@2x.png */; };
+		BEA0845A1D16582D005EE67C /* HeaderInput@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BEA084571D16582D005EE67C /* HeaderInput@2x.png */; };
 		BEC0A59B1D0E2D1E00F2B307 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC0A59A1D0E2D1E00F2B307 /* AppDelegate.swift */; };
 		BEC0A59D1D0E2D1E00F2B307 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC0A59C1D0E2D1E00F2B307 /* ViewController.swift */; };
 		BEC0A5A01D0E2D1E00F2B307 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC0A59E1D0E2D1E00F2B307 /* Main.storyboard */; };
@@ -295,6 +305,11 @@
 		BE08A3531D121EAF001622E4 /* CreditCard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CreditCard@2x.png"; sourceTree = "<group>"; };
 		BE08A3541D121EAF001622E4 /* YinLian@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "YinLian@2x.png"; sourceTree = "<group>"; };
 		BE08A3591D1222AE001622E4 /* YinLianPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YinLianPage.xib; sourceTree = "<group>"; };
+		BE1A22B31D15858000A334BC /* HomePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		BE1A22B51D15859000A334BC /* HomePage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomePage.xib; sourceTree = "<group>"; };
+		BE1A22B71D159CBE00A334BC /* UserCenterPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCenterPage.swift; sourceTree = "<group>"; };
+		BE1A22B81D159CBE00A334BC /* UserCenterPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserCenterPage.xib; sourceTree = "<group>"; };
+		BE1A22BB1D159F3100A334BC /* UserBack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UserBack@2x.png"; sourceTree = "<group>"; };
 		BE4368321D0F8291002A1D70 /* FxLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxLocation.swift; sourceTree = "<group>"; };
 		BE4CACDF1D14343D00E875B1 /* VerifyPhonePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerifyPhonePage.swift; sourceTree = "<group>"; };
 		BE4CACE11D14345500E875B1 /* VerifyPhonePage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VerifyPhonePage.xib; sourceTree = "<group>"; };
@@ -534,6 +549,11 @@
 		BE87C0DE1D0FBA7900F854AF /* FxActivityIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FxActivityIndicator.h; path = Utility/FxActivityIndicator.h; sourceTree = "<group>"; };
 		BE87C0DF1D0FBA7900F854AF /* FxActivityIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FxActivityIndicator.m; path = Utility/FxActivityIndicator.m; sourceTree = "<group>"; };
 		BE87C0E21D0FC20700F854AF /* Loading@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Loading@2x.png"; sourceTree = "<group>"; };
+		BEA084511D164F2F005EE67C /* SettingPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingPage.swift; sourceTree = "<group>"; };
+		BEA084521D164F2F005EE67C /* SettingPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingPage.xib; sourceTree = "<group>"; };
+		BEA084551D16582D005EE67C /* AccountBack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AccountBack@2x.png"; sourceTree = "<group>"; };
+		BEA084561D16582D005EE67C /* HeaderBack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HeaderBack@2x.png"; sourceTree = "<group>"; };
+		BEA084571D16582D005EE67C /* HeaderInput@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HeaderInput@2x.png"; sourceTree = "<group>"; };
 		BEC0A5971D0E2D1E00F2B307 /* Uber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Uber.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEC0A59A1D0E2D1E00F2B307 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEC0A59C1D0E2D1E00F2B307 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -839,6 +859,10 @@
 		BE7F1A431D11466100A872A5 /* Background */ = {
 			isa = PBXGroup;
 			children = (
+				BEA084551D16582D005EE67C /* AccountBack@2x.png */,
+				BEA084561D16582D005EE67C /* HeaderBack@2x.png */,
+				BEA084571D16582D005EE67C /* HeaderInput@2x.png */,
+				BE1A22BB1D159F3100A334BC /* UserBack@2x.png */,
 				BE7F1A441D11466100A872A5 /* avatar@2x.png */,
 				BE7F1A451D11466100A872A5 /* CarInfoBack.png */,
 				BE7F1A461D11466100A872A5 /* FeiYongBack@2x.png */,
@@ -975,6 +999,10 @@
 				BE7EBC781D10459F00F61C43 /* AddPayPage.swift */,
 				BEF4AD9F1D1175AE0004247A /* YinLianPage.swift */,
 				BE4CACDF1D14343D00E875B1 /* VerifyPhonePage.swift */,
+				BE1A22B31D15858000A334BC /* HomePage.swift */,
+				BE1A22B71D159CBE00A334BC /* UserCenterPage.swift */,
+				BEA084511D164F2F005EE67C /* SettingPage.swift */,
+				BEA084521D164F2F005EE67C /* SettingPage.xib */,
 			);
 			name = Pages;
 			sourceTree = "<group>";
@@ -1061,6 +1089,8 @@
 				BE7F1A561D114FE400A872A5 /* AddPayPage.xib */,
 				BE08A3591D1222AE001622E4 /* YinLianPage.xib */,
 				BE4CACE11D14345500E875B1 /* VerifyPhonePage.xib */,
+				BE1A22B51D15859000A334BC /* HomePage.xib */,
+				BE1A22B81D159CBE00A334BC /* UserCenterPage.xib */,
 			);
 			name = Xib;
 			sourceTree = "<group>";
@@ -1199,6 +1229,7 @@
 				BE54FA211D0EB4B50084E360 /* logo-031.png in Resources */,
 				BE54FA591D0EB4B50084E360 /* logo-049@3x.png in Resources */,
 				BE54F9D81D0EB4B50084E360 /* logo-006@3x.png in Resources */,
+				BE1A22BA1D159CBE00A334BC /* UserCenterPage.xib in Resources */,
 				BE54FA581D0EB4B50084E360 /* logo-049@2x.png in Resources */,
 				BE54FA391D0EB4B50084E360 /* logo-039.png in Resources */,
 				BE54FA091D0EB4B50084E360 /* logo-023.png in Resources */,
@@ -1258,6 +1289,7 @@
 				BE54FA641D0EB4B50084E360 /* logo-053@2x.png in Resources */,
 				BE7F1A531D11466100A872A5 /* vehicle_picker_slider_down@2x.png in Resources */,
 				BE54FA431D0EB4B50084E360 /* logo-042@2x.png in Resources */,
+				BEA084591D16582D005EE67C /* HeaderBack@2x.png in Resources */,
 				BE54FA701D0EB4B50084E360 /* logo-057@2x.png in Resources */,
 				BE54FA941D0EE88D0084E360 /* welcome_video.mp4 in Resources */,
 				BE54F9FC1D0EB4B50084E360 /* logo-018@3x.png in Resources */,
@@ -1270,6 +1302,7 @@
 				BE54F9D21D0EB4B50084E360 /* logo-004@3x.png in Resources */,
 				BE54F9E81D0EB4B50084E360 /* logo-012.png in Resources */,
 				BE54F9F11D0EB4B50084E360 /* logo-015.png in Resources */,
+				BE1A22BC1D159F3100A334BC /* UserBack@2x.png in Resources */,
 				BE54FA371D0EB4B50084E360 /* logo-038@2x.png in Resources */,
 				BE54F9E21D0EB4B50084E360 /* logo-010.png in Resources */,
 				BE7F1A571D114FE400A872A5 /* AddPayPage.xib in Resources */,
@@ -1320,6 +1353,7 @@
 				BE54F9EF1D0EB4B50084E360 /* logo-014@2x.png in Resources */,
 				BE54FA471D0EB4B50084E360 /* logo-043@3x.png in Resources */,
 				BE7F1A391D11215000A872A5 /* SelectCountryPage.xib in Resources */,
+				BEA084581D16582D005EE67C /* AccountBack@2x.png in Resources */,
 				BE08A3561D121EAF001622E4 /* BaiDuWallet@2x.png in Resources */,
 				BE7F1A401D113A2A00A872A5 /* selected.png in Resources */,
 				BE54FA871D0EB4B50084E360 /* logo-065.png in Resources */,
@@ -1384,6 +1418,7 @@
 				BE54F9EA1D0EB4B50084E360 /* logo-012@3x.png in Resources */,
 				BE54FA411D0EB4B50084E360 /* logo-041@3x.png in Resources */,
 				BE54F9FB1D0EB4B50084E360 /* logo-018@2x.png in Resources */,
+				BE1A22B61D15859000A334BC /* HomePage.xib in Resources */,
 				BE54FA851D0EB4B50084E360 /* logo-064@2x.png in Resources */,
 				BE54FA6B1D0EB4B50084E360 /* logo-055@3x.png in Resources */,
 				BE54F9EE1D0EB4B50084E360 /* logo-014.png in Resources */,
@@ -1399,6 +1434,7 @@
 				BE54FA301D0EB4B50084E360 /* logo-036.png in Resources */,
 				BEC0A5A01D0E2D1E00F2B307 /* Main.storyboard in Resources */,
 				BE54F9F21D0EB4B50084E360 /* logo-015@2x.png in Resources */,
+				BEA084541D164F2F005EE67C /* SettingPage.xib in Resources */,
 				BE54F9D71D0EB4B50084E360 /* logo-006@2x.png in Resources */,
 				BE54FA261D0EB4B50084E360 /* logo-032@3x.png in Resources */,
 				BE54FA761D0EB4B50084E360 /* logo-059@2x.png in Resources */,
@@ -1412,6 +1448,7 @@
 				BE54FA7C1D0EB4B50084E360 /* logo-061@2x.png in Resources */,
 				BE54FA631D0EB4B50084E360 /* logo-053.png in Resources */,
 				BE54FA1B1D0EB4B50084E360 /* logo-029.png in Resources */,
+				BEA0845A1D16582D005EE67C /* HeaderInput@2x.png in Resources */,
 				BE54FA721D0EB4B50084E360 /* logo-058.png in Resources */,
 				BE54FA201D0EB4B50084E360 /* logo-030@3x.png in Resources */,
 				BE54FA181D0EB4B50084E360 /* logo-028.png in Resources */,
@@ -1451,8 +1488,10 @@
 				BEC0A5D91D0E340D00F2B307 /* UserInfo.swift in Sources */,
 				BEF4ADA01D1175AE0004247A /* YinLianPage.swift in Sources */,
 				BEC0A5E91D0E35C900F2B307 /* GuidePage.swift in Sources */,
+				BE1A22B91D159CBE00A334BC /* UserCenterPage.swift in Sources */,
 				BE7F1A3E1D112AB400A872A5 /* FxString.m in Sources */,
 				BEC0A5E11D0E34E900F2B307 /* FxGetCars.swift in Sources */,
+				BE1A22B41D15858000A334BC /* HomePage.swift in Sources */,
 				BEC0A5DB1D0E343600F2B307 /* FxOperation.swift in Sources */,
 				BE87C0E01D0FBA7900F854AF /* FxActivityIndicator.m in Sources */,
 				BE87C0DD1D0FB99D00F854AF /* FxActivity.m in Sources */,
@@ -1462,6 +1501,7 @@
 				BE7F1A591D1151BD00A872A5 /* PayInfo.swift in Sources */,
 				BE7F1A3B1D11242E00A872A5 /* CountryInfo.swift in Sources */,
 				BEC0A5D71D0E33E700F2B307 /* BaseInfo.swift in Sources */,
+				BEA084531D164F2F005EE67C /* SettingPage.swift in Sources */,
 				BEC0A5F71D0E3C9A00F2B307 /* FxDefine.swift in Sources */,
 				BEC0A5F91D0E410E00F2B307 /* FxGlobal.swift in Sources */,
 				BEC0A5E71D0E35A400F2B307 /* LoginPage.swift in Sources */,

@@ -51,6 +51,14 @@ class VerifyPhonePage: FxBasePage {
     
     func doVerify() {
         self.showIndicator("Verify", autoHide: true, afterDelay: true)
+        self.performSelector(#selector(VerifyPhonePage.doShowHomePage), withObject: nil, afterDelay: 1.0)
+    }
+    
+    func doShowHomePage() {
+        let appDeg = UIApplication.sharedApplication().delegate as! AppDelegate
+        
+        appDeg.showHomePage()
+        
     }
 
     override func didReceiveMemoryWarning() {

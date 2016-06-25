@@ -17,3 +17,5 @@ func FxLog(msg:String, function:String = #function) {
 
     #endif
 }
+
+let PanWidth:CGFloat = 100
