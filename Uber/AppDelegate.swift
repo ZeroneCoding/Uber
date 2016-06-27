@@ -14,13 +14,25 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
 
+    var mapManager:BMKMapManager?
+    
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         
         window = UIWindow(frame: UIScreen.mainScreen().bounds)
         
+        addMap()
         showGuidePage()
         
         return true
+    }
+    
+    func addMap() {
+        mapManager = BMKMapManager()
+        let ret:Bool = mapManager!.start("dloEDjTgoAUdynxmv83kR98mzmf0uWTg", generalDelegate: nil)
+        if !ret {
+            print("start failed!")
+        }
+        
     }
     
     func showGuidePage() {

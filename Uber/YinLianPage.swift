@@ -13,7 +13,7 @@ class YinLianPage: FxBasePage, UPPayPluginDelegate, NSURLConnectionDataDelegate 
     var responseData:NSMutableData?
     
     override func viewDidLoad() {
-        
+        self.title = "Pay"
     }
 
     override func didReceiveMemoryWarning() {
