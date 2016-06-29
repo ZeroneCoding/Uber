@@ -265,6 +265,11 @@
 		BE7050471D1E9BE8002ADF64 /* rating_route.png in Resources */ = {isa = PBXBuildFile; fileRef = BE7050361D1E9BE8002ADF64 /* rating_route.png */; };
 		BE7050481D1E9BE8002ADF64 /* receipt_details_overlay.png in Resources */ = {isa = PBXBuildFile; fileRef = BE7050371D1E9BE8002ADF64 /* receipt_details_overlay.png */; };
 		BE7050491D1E9BE8002ADF64 /* receipt_details_overlay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE7050381D1E9BE8002ADF64 /* receipt_details_overlay@2x.png */; };
+		BE75F9D31D2279BE006AE336 /* Bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = BE75F9CE1D2279BE006AE336 /* Bottom.png */; };
+		BE75F9D41D2279BE006AE336 /* CarBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = BE75F9CF1D2279BE006AE336 /* CarBtn.png */; };
+		BE75F9D51D2279BE006AE336 /* account_icon_up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE75F9D11D2279BE006AE336 /* account_icon_up@2x.png */; };
+		BE75F9D61D2279BE006AE336 /* logo_uber_grey_zh_CN@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE75F9D21D2279BE006AE336 /* logo_uber_grey_zh_CN@2x.png */; };
+		BE75F9D91D22B5E0006AE336 /* FxButtonHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = BE75F9D81D22B5E0006AE336 /* FxButtonHelper.m */; };
 		BE7EBC751D10451E00F61C43 /* CreateAccountPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7EBC741D10451E00F61C43 /* CreateAccountPage.swift */; };
 		BE7EBC771D10457400F61C43 /* UserInfoPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7EBC761D10457400F61C43 /* UserInfoPage.swift */; };
 		BE7EBC791D10459F00F61C43 /* AddPayPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7EBC781D10459F00F61C43 /* AddPayPage.swift */; };
@@ -294,6 +299,8 @@
 		BEA084581D16582D005EE67C /* AccountBack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BEA084551D16582D005EE67C /* AccountBack@2x.png */; };
 		BEA084591D16582D005EE67C /* HeaderBack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BEA084561D16582D005EE67C /* HeaderBack@2x.png */; };
 		BEA0845A1D16582D005EE67C /* HeaderInput@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BEA084571D16582D005EE67C /* HeaderInput@2x.png */; };
+		BEB51A871D236FA500AC83CA /* TopBack.png in Resources */ = {isa = PBXBuildFile; fileRef = BEB51A851D236FA500AC83CA /* TopBack.png */; };
+		BEB51A881D236FA500AC83CA /* TuDing@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BEB51A861D236FA500AC83CA /* TuDing@2x.png */; };
 		BEC0A59B1D0E2D1E00F2B307 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC0A59A1D0E2D1E00F2B307 /* AppDelegate.swift */; };
 		BEC0A59D1D0E2D1E00F2B307 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC0A59C1D0E2D1E00F2B307 /* ViewController.swift */; };
 		BEC0A5A01D0E2D1E00F2B307 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC0A59E1D0E2D1E00F2B307 /* Main.storyboard */; };
@@ -596,6 +603,12 @@
 		BE7050361D1E9BE8002ADF64 /* rating_route.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rating_route.png; sourceTree = "<group>"; };
 		BE7050371D1E9BE8002ADF64 /* receipt_details_overlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = receipt_details_overlay.png; sourceTree = "<group>"; };
 		BE7050381D1E9BE8002ADF64 /* receipt_details_overlay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "receipt_details_overlay@2x.png"; sourceTree = "<group>"; };
+		BE75F9CE1D2279BE006AE336 /* Bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bottom.png; sourceTree = "<group>"; };
+		BE75F9CF1D2279BE006AE336 /* CarBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CarBtn.png; sourceTree = "<group>"; };
+		BE75F9D11D2279BE006AE336 /* account_icon_up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "account_icon_up@2x.png"; sourceTree = "<group>"; };
+		BE75F9D21D2279BE006AE336 /* logo_uber_grey_zh_CN@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo_uber_grey_zh_CN@2x.png"; sourceTree = "<group>"; };
+		BE75F9D71D22B5E0006AE336 /* FxButtonHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FxButtonHelper.h; path = Utility/FxButtonHelper.h; sourceTree = "<group>"; };
+		BE75F9D81D22B5E0006AE336 /* FxButtonHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FxButtonHelper.m; path = Utility/FxButtonHelper.m; sourceTree = "<group>"; };
 		BE7EBC741D10451E00F61C43 /* CreateAccountPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountPage.swift; sourceTree = "<group>"; };
 		BE7EBC761D10457400F61C43 /* UserInfoPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfoPage.swift; sourceTree = "<group>"; };
 		BE7EBC781D10459F00F61C43 /* AddPayPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPayPage.swift; sourceTree = "<group>"; };
@@ -629,6 +642,8 @@
 		BEA084551D16582D005EE67C /* AccountBack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AccountBack@2x.png"; sourceTree = "<group>"; };
 		BEA084561D16582D005EE67C /* HeaderBack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HeaderBack@2x.png"; sourceTree = "<group>"; };
 		BEA084571D16582D005EE67C /* HeaderInput@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HeaderInput@2x.png"; sourceTree = "<group>"; };
+		BEB51A851D236FA500AC83CA /* TopBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TopBack.png; sourceTree = "<group>"; };
+		BEB51A861D236FA500AC83CA /* TuDing@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TuDing@2x.png"; sourceTree = "<group>"; };
 		BEC0A5971D0E2D1E00F2B307 /* Uber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Uber.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEC0A59A1D0E2D1E00F2B307 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEC0A59C1D0E2D1E00F2B307 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -998,9 +1013,31 @@
 			path = Resources/Images/Car;
 			sourceTree = "<group>";
 		};
+		BE75F9CD1D2279BE006AE336 /* CarBack */ = {
+			isa = PBXGroup;
+			children = (
+				BE75F9CE1D2279BE006AE336 /* Bottom.png */,
+				BE75F9CF1D2279BE006AE336 /* CarBtn.png */,
+			);
+			name = CarBack;
+			path = Resources/Images/CarBack;
+			sourceTree = "<group>";
+		};
+		BE75F9D01D2279BE006AE336 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				BE75F9D11D2279BE006AE336 /* account_icon_up@2x.png */,
+				BE75F9D21D2279BE006AE336 /* logo_uber_grey_zh_CN@2x.png */,
+			);
+			name = Navigation;
+			path = Resources/Images/Navigation;
+			sourceTree = "<group>";
+		};
 		BE7F1A431D11466100A872A5 /* Background */ = {
 			isa = PBXGroup;
 			children = (
+				BEB51A851D236FA500AC83CA /* TopBack.png */,
+				BEB51A861D236FA500AC83CA /* TuDing@2x.png */,
 				BEA084551D16582D005EE67C /* AccountBack@2x.png */,
 				BEA084561D16582D005EE67C /* HeaderBack@2x.png */,
 				BEA084571D16582D005EE67C /* HeaderInput@2x.png */,
@@ -1160,6 +1197,8 @@
 		BEC0A5CE1D0E325000F2B307 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				BE75F9D71D22B5E0006AE336 /* FxButtonHelper.h */,
+				BE75F9D81D22B5E0006AE336 /* FxButtonHelper.m */,
 				BE7F1A3C1D112AB400A872A5 /* FxString.h */,
 				BE7F1A3D1D112AB400A872A5 /* FxString.m */,
 				BE87C0DB1D0FB99D00F854AF /* FxActivity.h */,
@@ -1213,6 +1252,8 @@
 		BEC0A5D31D0E32D400F2B307 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				BE75F9CD1D2279BE006AE336 /* CarBack */,
+				BE75F9D01D2279BE006AE336 /* Navigation */,
 				BE7050271D1E9BE8002ADF64 /* Car */,
 				BE4CACE31D1439A800E875B1 /* Buttons */,
 				BE08A3501D121EAF001622E4 /* PayIcon */,
@@ -1446,6 +1487,7 @@
 				BE54F9EB1D0EB4B50084E360 /* logo-013.png in Resources */,
 				BE54FA1F1D0EB4B50084E360 /* logo-030@2x.png in Resources */,
 				BE54FA711D0EB4B50084E360 /* logo-057@3x.png in Resources */,
+				BE75F9D51D2279BE006AE336 /* account_icon_up@2x.png in Resources */,
 				BE4CACE61D1439A800E875B1 /* Back@2x.png in Resources */,
 				BE54FA911D0EB50B0084E360 /* GuidePage.xib in Resources */,
 				BE54F9E71D0EB4B50084E360 /* logo-011@3x.png in Resources */,
@@ -1571,7 +1613,10 @@
 				BE54FA3B1D0EB4B50084E360 /* logo-039@3x.png in Resources */,
 				BE54FA7E1D0EB4B50084E360 /* logo-062.png in Resources */,
 				BE54FA4B1D0EB4B50084E360 /* logo-045.png in Resources */,
+				BEB51A871D236FA500AC83CA /* TopBack.png in Resources */,
 				BE54FA781D0EB4B50084E360 /* logo-060.png in Resources */,
+				BE75F9D31D2279BE006AE336 /* Bottom.png in Resources */,
+				BE75F9D61D2279BE006AE336 /* logo_uber_grey_zh_CN@2x.png in Resources */,
 				BE54FA081D0EB4B50084E360 /* logo-022@3x.png in Resources */,
 				BE54FA551D0EB4B50084E360 /* logo-048@2x.png in Resources */,
 				BE7F1A501D11466100A872A5 /* map_bubble_pin@2x.png in Resources */,
@@ -1618,11 +1663,13 @@
 				BE7050431D1E9BE8002ADF64 /* rating_car.png in Resources */,
 				BE87C0E31D0FC20700F854AF /* Loading@2x.png in Resources */,
 				BE54FA141D0EB4B50084E360 /* logo-026@3x.png in Resources */,
+				BE75F9D41D2279BE006AE336 /* CarBtn.png in Resources */,
 				BE54FA4A1D0EB4B50084E360 /* logo-044@3x.png in Resources */,
 				BE54FA841D0EB4B50084E360 /* logo-064.png in Resources */,
 				BE54FA7C1D0EB4B50084E360 /* logo-061@2x.png in Resources */,
 				BE54FA631D0EB4B50084E360 /* logo-053.png in Resources */,
 				BE54FA1B1D0EB4B50084E360 /* logo-029.png in Resources */,
+				BEB51A881D236FA500AC83CA /* TuDing@2x.png in Resources */,
 				BEA0845A1D16582D005EE67C /* HeaderInput@2x.png in Resources */,
 				BE54FA721D0EB4B50084E360 /* logo-058.png in Resources */,
 				BE54FA201D0EB4B50084E360 /* logo-030@3x.png in Resources */,
@@ -1672,6 +1719,7 @@
 				BEC0A5DB1D0E343600F2B307 /* FxOperation.swift in Sources */,
 				BE87C0E01D0FBA7900F854AF /* FxActivityIndicator.m in Sources */,
 				BE87C0DD1D0FB99D00F854AF /* FxActivity.m in Sources */,
+				BE75F9D91D22B5E0006AE336 /* FxButtonHelper.m in Sources */,
 				BEC0A59D1D0E2D1E00F2B307 /* ViewController.swift in Sources */,
 				BE7F1A371D111E6700A872A5 /* SelectCountryPage.swift in Sources */,
 				BE4368331D0F8291002A1D70 /* FxLocation.swift in Sources */,
@@ -1764,6 +1812,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -1809,6 +1858,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -1852,8 +1902,10 @@
 				OTHER_SWIFT_FLAGS = "-D DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = com.andios.Uber;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Uber/Uber-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -1880,7 +1932,9 @@
 				OTHER_SWIFT_FLAGS = "-D DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = com.andios.Uber;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Uber/Uber-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -1948,6 +2002,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -1991,7 +2046,9 @@
 				OTHER_SWIFT_FLAGS = "-D AppStore";
 				PRODUCT_BUNDLE_IDENTIFIER = com.andios.Uber;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Uber/Uber-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = AppStore;
 		};
@@ -2036,6 +2093,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -2079,7 +2137,9 @@
 				OTHER_SWIFT_FLAGS = "-D DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = com.andios.Uber;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Uber/Uber-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = AdHoc;
 		};
